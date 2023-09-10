@@ -11,7 +11,7 @@ int main(void)
 
 	while (a < b)
 	{
-		putchar("123456789"[a]);
+		putchar("0123456789"[a]);
 		a++;
 	}
 	putchar('\n');
