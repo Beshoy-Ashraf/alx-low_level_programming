@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int b = 54, a = 0;
+	int b = 53, a = 0;
 
 	while (a < b)
 	{
