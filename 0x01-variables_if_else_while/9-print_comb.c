@@ -12,7 +12,7 @@ int main(void)
 	while (a < b)
 	{
 		putchar("0123456789"[a]);
-		if (a != b-1)
+		if (a != b - 1)
 		{
 			putchar(',');
 			putchar(' ');
