@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Program prints the alphabet in lowercase, except q and e followed by a new line.
+ * main - Prints alphabet in lowercase, except q and e and a new line.
  * Return: 0 (Success)
  */
 int main(void)
