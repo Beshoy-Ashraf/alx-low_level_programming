@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int b = 54, a = 0;
+	int b = 27, a = 0;
 
 	while (a < b)
 	{
-		putchar("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"[a]);
+		putchar("abcdefghijklmnopqrstuvwxyz"[a]);
 		a++;
 	}
 	putchar('\n');

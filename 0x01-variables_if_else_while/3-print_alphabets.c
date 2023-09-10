@@ -2,26 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Program determine if the number is positive or negative or zero.
+ * main - Program prints the alphabet in lowercase, followed by a new line.
  * Return: 0 (Success)
  */
 int main(void)
 {
-	int n;
+	int b = 54, a = 0;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	while (a < b)
 	{
-		printf("%d is positive\n", n);
+		putchar("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"[a]);
+		a++;
 	}
-	else if (n < 0)
-	{
-	printf("%d is negative\n", n);
-	}
-	else
-	{
-	printf("%d is zero\n", n);
-	}
+	putchar('\n');
 	return (0);
 }
