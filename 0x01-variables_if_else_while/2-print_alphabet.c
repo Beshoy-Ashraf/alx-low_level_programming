@@ -14,5 +14,6 @@ int main(void)
 		putchar("abcdefghijklmnopqrstuvwxyz"[a]);
 		a++;
 	}
+	putchar('\n');
 	return (0);
 }
