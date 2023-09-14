@@ -6,7 +6,7 @@
  * @y: input
  * Return: a * b (Success)
  */
-int _mul(int x, int y)
+int mul(int x, int y)
 {
 	return (a * b);
 }
