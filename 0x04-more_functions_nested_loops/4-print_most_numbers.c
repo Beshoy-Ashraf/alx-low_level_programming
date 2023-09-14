@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_most - function that prints 0 to 9
+ * print_most_numbers - function that prints 0 to 9
  * Return: 0 (Success)
  */
-void print_most(void)
+void print_most_numbers(void)
 {
 	int letter;
 
