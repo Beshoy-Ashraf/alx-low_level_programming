@@ -9,8 +9,9 @@ void print_most(void)
 
 	for (letter = 48; letter <= 57; letter++)
 	{
-		if ((letter != 50) && (letter != 52))
-			_putchar(letter);
+		if ((letter == 50) || (letter == 52))
+			continue;
+		_putchar(letter);
 	}
 	_putchar(10);
 }
