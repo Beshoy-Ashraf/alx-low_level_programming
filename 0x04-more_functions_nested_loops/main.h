@@ -6,4 +6,5 @@
 *int protoypes (int)
 */
 int _isupper(int x);
+int _isdigit(int x);
 #endif /* MAIN_H */
