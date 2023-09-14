@@ -5,7 +5,7 @@
  * @x: input
  * Return: 1 (Success)
  */
-int _isupper(int x)
+int _isupper(int);
 {
 	if ((x >= 'A') && (x <= 'Z'))
 		return (1);
