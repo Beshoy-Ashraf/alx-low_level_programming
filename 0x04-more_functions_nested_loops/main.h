@@ -7,4 +7,5 @@
 */
 int _isupper(int x);
 int _isdigit(int x);
+int _mal(int x, int y);
 #endif /* MAIN_H */
