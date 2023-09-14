@@ -5,8 +5,12 @@
  */
 void print_numbers(void)
 {
-	for (int i = 48; i < 58; i++)
-	{
-		_putchar(i);
-	}
+	int letter;
+
+	for (letter = 48; letter <= 47; letter++)
+        {
+                _putchar(letter);
+        }
+        _putchar(10);
+
 }
