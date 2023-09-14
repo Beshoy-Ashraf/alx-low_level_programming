@@ -5,7 +5,7 @@
 *void protoypes (void)
 *int protoypes (int)
 */
-int _isupper(int x);
-int _isdigit(int x);
-int _mal(int x, int y);
+int _isupper(int);
+int _isdigit(int);
+int _mal(int, int);
 #endif /* MAIN_H */
